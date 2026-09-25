@@ -1,0 +1,26 @@
+body {
+    background-color: #FE9E0B;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Menghilangkan margin default */
+}
+.card {
+    opacity: 0.9; /* Mengatur tingkat transparansi kartu */
+    border-radius: 15px;
+    width: 100%; /* Agar kartu menggunakan seluruh lebar kolom */
+    max-width: 500px; 
+    padding: 20px; 
+}
+.form-control {
+    border-radius: 10px;
+}
+.btn-custom {
+    background-color: #FE9E0B; /* Warna latar belakang kustom */
+    color: #ffffff; /* Warna teks tombol */
+    border-radius: 10px; /* Sudut tombol bulat */
+}
+.btn-custom:hover {
+    background-color: #e68a00; /* Warna saat hover */
+}

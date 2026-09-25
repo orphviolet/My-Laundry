@@ -1,0 +1,26 @@
+body {
+    background-color: #FE9E0B;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+}
+.card {
+    opacity: 0.9; 
+    border-radius: 15px;
+    width: 100%; 
+    max-width: 500px;
+    padding: 20px; 
+}
+.form-control {
+    border-radius: 10px;
+}
+.btn-custom {
+    background-color: #FE9E0B; 
+    color: #ffffff; 
+    border-radius: 10px; 
+}
+.btn-custom:hover {
+    background-color: #e68a00;
+}

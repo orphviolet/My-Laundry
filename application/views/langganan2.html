@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Langganan</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        h1 {
+            color: #FFA500;
+            margin-bottom: 20px;
+        }
+        .subscription-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .subscription-box {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .subscription-box:hover {
+            transform: scale(1.05);
+        }
+        .price {
+            font-size: 24px;
+            color: #FFA500;
+            margin: 10px 0;
+        }
+        .duration {
+            font-size: 18px;
+            color: #333;
+            margin: 0;
+        }
+        .description {
+            font-size: 16px;
+            color: black;
+            margin: 20px 0;
+        }
+        .button {
+            background-color: #FFA500;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #ff7f00;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pilih Paket Langganan Anda</h1>
+    <div class="subscription-container">
+        <!-- Paket 1 -->
+        <div class="subscription-box">
+            <p class="price">Rp. 35.000</p>
+            <p class="duration">1 Bulan</p>
+            <p class="description">Mendapatkan semua akses fitur selama 1 bulan.</p>
+            <button class="button" onclick="alert('Anda telah memilih paket 1 bulan!')">BELI SEKARANG</button>
+        </div>
+        <!-- Paket 2 -->
+        <div class="subscription-box">
+            <p class="price">Rp. 95.000</p>
+            <p class="duration">3 Bulan</p>
+            <p class="description">Hemat lebih banyak dan dapatkan akses selama 3 bulan.</p>
+            <button class="button" onclick="alert('Anda telah memilih paket 3 bulan!')">BELI SEKARANG</button>
+        </div>
+        <!-- Paket 3 -->
+        <div class="subscription-box">
+            <p class="price">Rp. 180.000</p>
+            <p class="duration">6 Bulan</p>
+            <p class="description">Paket terbaik untuk akses 6 bulan penuh.</p>
+            <button class="button" onclick="alert('Anda telah memilih paket 6 bulan!')">BELI SEKARANG</button>
+        </div>
+    </div>
+</body>
+</html>
